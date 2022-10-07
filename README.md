@@ -32,12 +32,6 @@ Open app the app Visual Studio 2022
 
 2. Next, select the backend project and move it above the frontend, so that it starts up first.
 
-- The app ask to select a different port:
-    - Something is already running on port 3000
-    - Would you like to run the app on another port instead? » (y/n)
-- Enter `Y` and the app open in the browser in next free port, for example:
-- `http://localhost:3001`
-
 ### Start the project
 1. Before you start the project, make sure that the port numbers match. Go to the launchSettings.json file in your ASP.NET Core project (in the Properties folder). Get the port number from the applicationUrl property.
 
